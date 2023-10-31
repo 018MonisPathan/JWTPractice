@@ -7,6 +7,7 @@ const PORT = 5000;
 var app = express()
 
 require('./configuration/db')
+require('./models/User');
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
