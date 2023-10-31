@@ -18,8 +18,8 @@ function IssueJW_Token(user){
 
    
       return {
-         token: "Bearer " + signedToken,
-         expires: expiresIn
+         token: "Bearer " + Token,
+         expires: expires
        }
    
 
